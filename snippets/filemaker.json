@@ -1,0 +1,1075 @@
+{
+  "Set Variable": {
+    "prefix": "Set Variable",
+    "body": "Set Variable [${1:text}; Value: ${2:expression}]",
+    "description": "Store Calculated Result in Variable",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "Allow User Abort": {
+    "prefix": "Allow User Abort",
+    "body": "Allow User Abort [${1|On,Off|}]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "If": {
+    "prefix": "If",
+    "body": "If [${1:expression}]\t\nEnd If",
+    "description": "If statement",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "Else If": {
+    "prefix": "Else If",
+    "body": "Else If [${1:expression}]",
+    "description": "Else If statement",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "Else": {
+    "prefix": "Else",
+    "body": "Else",
+    "description": "Else statement",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "End If": {
+    "prefix": "End If",
+    "body": "End If",
+    "description": "End of If statement",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "Loop": {
+    "prefix": "Loop",
+    "body": "Loop\n\t",
+    "description": "Start of Loop",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "Exit Loop If": {
+    "prefix": "Exit Loop If",
+    "body": "Exit Loop If [${1:expression}]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "End Loop Loop": {
+    "prefix": "End Loop",
+    "body": "End Loop",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "Install OnTimer Script": {
+    "prefix": "Install OnTimer Script",
+    "body": "Install OnTimer Script [${1:script; Interval: ${2:number}}]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "Pause/Resume Script": {
+    "prefix": "Pause/Resume Script",
+    "body": "Pause/Resume Script [Duration (seconds): ${1:number}]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "Perform Script": {
+    "prefix": "Perform Script",
+    "body": "Perform Script [Specified:From List; ${1:script}; Parameter: ${2:expression}]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "Perform Script on Server": {
+    "prefix": "Perform Script on Server",
+    "body": "Perform Script on Server [Specified:From List; ${1:script}; Parameter: ${2:expression}; Wait for completion:On]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "Set Error Capture": {
+    "prefix": "Set Error Capture",
+    "body": "Set Error Capture [${1|On,Off|}]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "Set Error Logging": {
+    "prefix": "Set Error Logging",
+    "body": "Set Error Logging [${1|On,Off|}]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "Set Layout Object Animation": {
+    "prefix": "Set Layout Object Animation",
+    "body": "Set Layout Object Animation [${1|On,Off|}]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "Exit Script": {
+    "prefix": "Exit Script",
+    "body": "Exit Script [Text Result:${1:expression}]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "Halt Script": {
+    "prefix": "Halt Script",
+    "body": "Halt Script",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "Configure Local Notification": {
+    "prefix": "Configure Local Notification [Action:Queue]",
+    "body": "Configure Local Notification [Action:Queue]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "keyword.control.script.filemaker"
+  },
+  "Configure Region Monitor Script": {
+    "prefix": "Configure Region Monitor Script [Monitor:iBeacon]",
+    "body": "Configure Region Monitor Script [Monitor:iBeacon]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "keyword.control.script.filemaker"
+  },
+
+  "Close Popover": {
+    "prefix": "Close Popover",
+    "body": "Close Popover",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.navigation.script.filemaker"
+  },
+  "Enter Browse Mode": {
+    "prefix": "Enter Browse Mode [Pause:Off]",
+    "body": "Enter Browse Mode [Pause:Off]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.navigation.script.filemaker"
+  },
+  "Enter Find Mode": {
+    "prefix": "Enter Find Mode [Pause:On]",
+    "body": "Enter Find Mode [Pause:On]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.navigation.script.filemaker"
+  },
+  "Enter Preview Mode": {
+    "prefix": "Enter Preview Mode [Pause:Off]",
+    "body": "Enter Preview Mode [Pause:Off]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.navigation.script.filemaker"
+  },
+  "Go to Field": {
+    "prefix": "Go to Field []",
+    "body": "Go to Field []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.navigation.script.filemaker"
+  },
+  "Go to Layout": {
+    "prefix": "Go to Layout [original layout; Animation:None]",
+    "body": "Go to Layout [original layout; Animation:None]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.navigation.script.filemaker"
+  },
+  "Go to Next Field": {
+    "prefix": "Go to Next Field",
+    "body": "Go to Next Field",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.navigation.script.filemaker"
+  },
+  "Go to Object": {
+    "prefix": "Go to Object []",
+    "body": "Go to Object []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.navigation.script.filemaker"
+  },
+  "Go to Portal Row": {
+    "prefix": "Go to Portal Row [Select; First]",
+    "body": "Go to Portal Row [Select; First]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.navigation.script.filemaker"
+  },
+  "Go to Previous Field": {
+    "prefix": "Go to Previous Field",
+    "body": "Go to Previous Field",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.navigation.script.filemaker"
+  },
+  "Go to Record/Request/Page": {
+    "prefix": "Go to Record/Request/Page [First]",
+    "body": "Go to Record/Request/Page [First]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.navigation.script.filemaker"
+  },
+  "Go to Related Record": {
+    "prefix": "Go to Related Record [From table: <unknown>; Using layout: <Current Layout>]",
+    "body": "Go to Related Record [From table: <unknown>; Using layout: <Current Layout>]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.navigation.script.filemaker"
+  },
+
+  "Clear": {
+    "prefix": "Clear [Select]",
+    "body": "Clear [Select]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.editing.script.filemaker"
+  },
+  "Copy": {
+    "prefix": "Copy [Select]",
+    "body": "Copy [Select]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.editing.script.filemaker"
+  },
+  "Cut": {
+    "prefix": "Cut [Select]",
+    "body": "Cut [Select]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.editing.script.filemaker"
+  },
+  "Paste": {
+    "prefix": "Paste [Select]",
+    "body": "Paste [Select]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.editing.script.filemaker"
+  },
+  "Perform Find/Replace": {
+    "prefix": "Perform Find/Replace [With dialog:On]",
+    "body": "Perform Find/Replace [With dialog:On]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.editing.script.filemaker"
+  },
+  "Select All": {
+    "prefix": "Select All",
+    "body": "Select Allt",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.editing.script.filemaker"
+  },
+  "Set Selection": {
+    "prefix": "Set Selection []",
+    "body": "Set Selection []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.editing.script.filemaker"
+  },
+  "Undo/Redo": {
+    "prefix": "Undo/Redo [Toggle]",
+    "body": "Undo/Redo [Toggle]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.editing.script.filemaker"
+  },
+
+  "Export Field Contents": {
+    "prefix": "Export Field Contents [Create folders:Off]",
+    "body": "Export Field Contents [Create folders:Off]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+  "Insert Audio/Video": {
+    "prefix": "Insert Audio/Video []",
+    "body": "Insert Audio/Video []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+  "Insert Calculated Result": {
+    "prefix": "Insert Calculated Result []",
+    "body": "Insert Calculated Result []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+  "Insert Current Date": {
+    "prefix": "Insert Current Date []",
+    "body": "Insert Current Date []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+  "Insert Current Time": {
+    "prefix": "Insert Current Time []",
+    "body": "Insert Current Time []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+  "Insert Current User Name": {
+    "prefix": "Insert Current User Name []",
+    "body": "Insert Current User Name []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+  "Insert File": {
+    "prefix": "Insert File []",
+    "body": "Insert File []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+  "Insert from Device": {
+    "prefix": "Insert from Device [Type: Camera; Camera: Back; Resolution: Full]",
+    "body": "Insert from Device [Type: Camera; Camera: Back; Resolution: Full]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+  "Insert from Index": {
+    "prefix": "Insert from Index []",
+    "body": "Insert from Index []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+  "Insert from Last Visited": {
+    "prefix": "Insert from Last Visited []",
+    "body": "Insert from Last Visited []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+  "Insert from URL": {
+    "prefix": "Insert from URL []",
+    "body": "Insert from URL []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+  "Insert PDF": {
+    "prefix": "Insert PDF []",
+    "body": "Insert PDF []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+  "Insert Picture": {
+    "prefix": "Insert Picture []",
+    "body": "Insert Picture []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+  "Insert Text": {
+    "prefix": "Insert Text[]",
+    "body": "Insert Text[]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+  "Relookup Field Contents": {
+    "prefix": "Relookup Field Contents []",
+    "body": "Relookup Field Contents []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+  "Replace Field Contents": {
+    "prefix": "Replace Field Contents []",
+    "body": "Replace Field Contents []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+  "Set Field": {
+    "prefix": "Set Field []",
+    "body": "Set Field []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+  "Set Field By Name": {
+    "prefix": "Set Field By Name []",
+    "body": "Set Field By Name []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+  "Set Next Serial Value": {
+    "prefix": "Set Next Serial Value []",
+    "body": "Set Next Serial Value []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.fields.script.filemaker"
+  },
+
+  "Commit Records/Requests": {
+    "prefix": "Commit Records/Requests",
+    "body": "Commit Records/Requests",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.records.script.filemaker"
+  },
+  "Copy All Records/Requests": {
+    "prefix": "Copy All Records/Requests",
+    "body": "Copy All Records/Requests",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.records.script.filemaker"
+  },
+  "Copy Record/Request": {
+    "prefix": "Copy Record/Request",
+    "body": "Copy Record/Request",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.records.script.filemaker"
+  },
+  "Delete All Records": {
+    "prefix": "Delete All Records",
+    "body": "Delete All Records",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.records.script.filemaker"
+  },
+  "Delete Portal Row": {
+    "prefix": "Delete Portal Row",
+    "body": "Delete Portal Row",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.records.script.filemaker"
+  },
+  "Delete Record/Request": {
+    "prefix": "Delete Record/Request",
+    "body": "Delete Record/Request",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.records.script.filemaker"
+  },
+  "Duplicate Record/Request": {
+    "prefix": "Duplicate Record/Request",
+    "body": "Duplicate Record/Request",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.records.script.filemaker"
+  },
+  "Export Records": {
+    "prefix": "Export Records [Create folders:No]",
+    "body": "Export Records [Create folders:No]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.records.script.filemaker"
+  },
+  "Import Records": {
+    "prefix": "Import Records []",
+    "body": "Import Records []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.records.script.filemaker"
+  },
+  "New Record/Request": {
+    "prefix": "New Record/Request",
+    "body": "New Record/Request",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.records.script.filemaker"
+  },
+  "Open Record/Request": {
+    "prefix": "Open Record/Request",
+    "body": "Open Record/Request",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.records.script.filemaker"
+  },
+  "Revert Record/Request": {
+    "prefix": "Revert Record/Request",
+    "body": "Revert Record/Request",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.records.script.filemaker"
+  },
+  "Save Records as Excel": {
+    "prefix": "Save Records as Excel [Create folders:No]",
+    "body": "Save Records as Excel [Create folders:No]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.records.script.filemaker"
+  },
+  "Save Records as PDF": {
+    "prefix": "Save Records as PDF [Create folders:No]",
+    "body": "Save Records as PDF [Create folders:No]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.records.script.filemaker"
+  },
+  "Save Records as Snapshot Link": {
+    "prefix": "Save Records as Snapshot Link [Records being browsed; Create folders:No]",
+    "body": "Save Records as Snapshot Link [Records being browsed; Create folders:No]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.records.script.filemaker"
+  },
+  "Truncate Table": {
+    "prefix": "Truncate Table [Table: <Current Table>]",
+    "body": "Truncate Table [Table: <Current Table>]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.records.script.filemaker"
+  },
+
+  "Constrain Found Set": {
+    "prefix": "Constrain Found Set []",
+    "body": "Constrain Found Set []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.foundSets.script.filemaker"
+  },
+  "Extend Found Set": {
+    "prefix": "Extend Found Set []",
+    "body": "Extend Found Set []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.foundSets.script.filemaker"
+  },
+  "Find Matching Records": {
+    "prefix": "Find Matching Records [Replace]",
+    "body": "Find Matching Records [Replace]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.foundSets.script.filemaker"
+  },
+  "Modify Last Find": {
+    "prefix": "Modify Last Find",
+    "body": "Modify Last Find",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.foundSets.script.filemaker"
+  },
+  "Omit Multiple Records": {
+    "prefix": "Omit Multiple Records []",
+    "body": "Omit Multiple Records []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.foundSets.script.filemaker"
+  },
+  "Omit Record": {
+    "prefix": "Omit Record",
+    "body": "Omit Record",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.foundSets.script.filemaker"
+  },
+  "Perform Find": {
+    "prefix": "Perform Find []",
+    "body": "Perform Find []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.foundSets.script.filemaker"
+  },
+  "Perform Quick Find": {
+    "prefix": "Perform Quick Find []",
+    "body": "Perform Quick Find []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.foundSets.script.filemaker"
+  },
+  "Show All Records": {
+    "prefix": "Show All Records",
+    "body": "Show All Records",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.foundSets.script.filemaker"
+  },
+  "Show Omitted Only": {
+    "prefix": "Show Omitted Only",
+    "body": "Show Omitted Only",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.foundSets.script.filemaker"
+  },
+  "Sort Records": {
+    "prefix": "Sort Records []",
+    "body": "Sort Records []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.foundSets.script.filemaker"
+  },
+  "Sort Records by Field": {
+    "prefix": "Sort Records by Field [Ascending]",
+    "body": "Sort Records by Field [Ascending]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.foundSets.script.filemaker"
+  },
+  "Unsort Records": {
+    "prefix": "Unsort Records",
+    "body": "Unsort Records",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.foundSets.script.filemaker"
+  },
+
+  "Adjust Window": {
+    "prefix": "Adjust Window [Restore]",
+    "body": "Adjust Window [Restore]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.windows.script.filemaker"
+  },
+  "Arrange All Windows": {
+    "prefix": "Arrange All Windows [Tile Horizontally]",
+    "body": "Arrange All Windows [Tile Horizontally]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.windows.script.filemaker"
+  },
+  "Close Window": {
+    "prefix": "Close Window [Current Window]",
+    "body": "Close Window [Current Window]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.windows.script.filemaker"
+  },
+  "Freeze Window": {
+    "prefix": "Freeze Window",
+    "body": "Freeze Window",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.windows.script.filemaker"
+  },
+  "Move/Resize Window": {
+    "prefix": "Move/Resize Window [Current Window]",
+    "body": "Move/Resize Window [Current Window]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.windows.script.filemaker"
+  },
+  "New Window": {
+    "prefix": "New Window [Style: Document; Using layout: <Current Layout>; Close: Yes; Minimize: Yes; Maximize: Yes; Resize: Yes]",
+    "body": "New Window [Style: Document; Using layout: <Current Layout>; Close: Yes; Minimize: Yes; Maximize: Yes; Resize: Yes]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.windows.script.filemaker"
+  },
+  "Refresh Window": {
+    "prefix": "Refresh Window",
+    "body": "Refresh Window",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.windows.script.filemaker"
+  },
+  "Scroll Window": {
+    "prefix": "Scroll Window [Home]",
+    "body": "Scroll Window [Home]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.windows.script.filemaker"
+  },
+  "Select Window": {
+    "prefix": "Select Window [Current Window]",
+    "body": "Select Window [Current Window]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.windows.script.filemaker"
+  },
+  "Set Window Title": {
+    "prefix": "Set Window Title [Current Window]",
+    "body": "Set Window Title [Current Window]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.windows.script.filemaker"
+  },
+  "Set Zoom Level": {
+    "prefix": "Set Zoom Level [100%]",
+    "body": "Set Zoom Level [100%]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.windows.script.filemaker"
+  },
+  "Show/Hide Menubar": {
+    "prefix": "Show/Hide Menubar [Toggle]",
+    "body": "Show/Hide Menubar [Toggle]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.windows.script.filemaker"
+  },
+  "Show/Hide Text Ruler": {
+    "prefix": "Show/Hide Text Ruler [Toggle]",
+    "body": "Show/Hide Text Ruler [Toggle]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.windows.script.filemaker"
+  },
+  "Show/Hide Toolbars": {
+    "prefix": "Show/Hide Toolbars [Toggle]",
+    "body": "Show/Hide Toolbars [Toggle]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.windows.script.filemaker"
+  },
+  "View As": {
+    "prefix": "View As [Cycle]",
+    "body": "View As [Cycle]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.windows.script.filemaker"
+  },
+
+  "Close Data File": {
+    "prefix": "Close Data File [File ID: ]",
+    "body": "Close Data File [File ID: ]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Close File": {
+    "prefix": "Close File [Current File]",
+    "body": "Close File [Current File]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Convert File": {
+    "prefix": "Convert File []",
+    "body": "Convert File []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Create Data File": {
+    "prefix": "Create Data File [; Create folders:Off]",
+    "body": "Create Data File [; Create folders:Off]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Delete File": {
+    "prefix": "Delete File [Target file:]",
+    "body": "Delete File [Target file:]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Get Data File Position": {
+    "prefix": "Get Data File Position [Target: ]",
+    "body": "Get Data File Position [Target: ]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Get File Exists": {
+    "prefix": "Get File Exists [; Target: ]",
+    "body": "Get File Exists [; Target: ]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Get File Size": {
+    "prefix": "Get File Size [; Target: ]",
+    "body": "Get File Size [; Target: ]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "New File": {
+    "prefix": "New File",
+    "body": "New Fileipt",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Open Data File": {
+    "prefix": "Open Data File [; Target: ]",
+    "body": "Open Data File [; Target: ]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Open File": {
+    "prefix": "Open File [<unknown>]",
+    "body": "Open File [<unknown>]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Print": {
+    "prefix": "Print []",
+    "body": "Print []ipt",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Print Setup": {
+    "prefix": "Print Setup []",
+    "body": "Print Setup []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Read from Data File": {
+    "prefix": "Read from Data File [File ID: ; Amount (bytes): ; Target: ; Read as: Bytes]",
+    "body": "Read from Data File [File ID: ; Amount (bytes): ; Target: ; Read as: Bytes]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Recover File": {
+    "prefix": "Recover File []",
+    "body": "Recover File []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Rename File": {
+    "prefix": "Rename File [Source file: ; New name: ]",
+    "body": "Rename File [Source file: ; New name: ]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Save a Copy as": {
+    "prefix": "Save a Copy as [Create folders:No]",
+    "body": "Save a Copy as [Create folders:No]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Save a Copy as XML": {
+    "prefix": "Save a Copy as XML [Window name: ; Destination file: <unknown>]",
+    "body": "Save a Copy as XML [Window name: ; Destination file: <unknown>]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Set Data File Position": {
+    "prefix": "Set Data File Position []",
+    "body": "Set Data File Position []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Set Multi-User": {
+    "prefix": "Set Multi-User [On]",
+    "body": "Set Multi-User [On]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Set Use System Formats": {
+    "prefix": "Set Use System Formats [On]",
+    "body": "Set Use System Formats [On]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+  "Write to Data File": {
+    "prefix": "Write to Data File [File ID: ; Data source: ; Write as: UTF-16; Append line feed: On]",
+    "body": "Write to Data File [File ID: ; Data source: ; Write as: UTF-16; Append line feed: On]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.files.script.filemaker"
+  },
+
+  "Add Account": {
+    "prefix": "Add Account [Privilege Set: <unknown>]",
+    "body": "Add Account [Privilege Set: <unknown>]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.accounts.script.filemaker"
+  },
+  "Change Password": {
+    "prefix": "Change Password []",
+    "body": "Change Password []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.accounts.script.filemaker"
+  },
+  "Delete Account": {
+    "prefix": "Delete Account []",
+    "body": "Delete Account []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.accounts.script.filemaker"
+  },
+  "Enable Account": {
+    "prefix": "Enable Account []",
+    "body": "Enable Account []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.accounts.script.filemaker"
+  },
+  "Re-Login": {
+    "prefix": "Re-Login []",
+    "body": "Re-Login []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.accounts.script.filemaker"
+  },
+  "Reset Account Password": {
+    "prefix": "Reset Account Password []",
+    "body": "Reset Account Password []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.accounts.script.filemaker"
+  },
+
+  "Check Found Set": {
+    "prefix": "Check Found Set",
+    "body": "Check Found Set",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.spelling.script.filemaker"
+  },
+  "Check Record": {
+    "prefix": "Check Record",
+    "body": "Check Record",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.spelling.script.filemaker"
+  },
+  "Check Selection": {
+    "prefix": "Check Selection []",
+    "body": "Check Selection []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.spelling.script.filemaker"
+  },
+  "Correct Word": {
+    "prefix": "Correct Word",
+    "body": "Correct Word",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.spelling.script.filemaker"
+  },
+  "Edit User Dictionary": {
+    "prefix": "Edit User Dictionary",
+    "body": "Edit User Dictionary",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.spelling.script.filemaker"
+  },
+  "Select Dictionaries": {
+    "prefix": "Select Dictionaries",
+    "body": "Select Dictionaries",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.spelling.script.filemaker"
+  },
+  "Spelling Options": {
+    "prefix": "Spelling Options",
+    "body": "Spelling Options",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.spelling.script.filemaker"
+  },
+
+  "Open Edit Saved Finds": {
+    "prefix": "Open Edit Saved Finds",
+    "body": "Open Edit Saved Finds",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.openMenuItem.script.filemaker"
+  },
+  "Open Favorites": {
+    "prefix": "Open Favorites",
+    "body": "Open Favorites",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.openMenuItem.script.filemaker"
+  },
+  "Open File Options ": {
+    "prefix": "Open File Options ",
+    "body": "Open File Options ",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.openMenuItem.script.filemaker"
+  },
+  "Open Find/Replace ": {
+    "prefix": "Open Find/Replace ",
+    "body": "Open Find/Replace ",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.openMenuItem.script.filemaker"
+  },
+  "Open Help ": {
+    "prefix": "Open Help ",
+    "body": "Open Help t",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.openMenuItem.script.filemaker"
+  },
+  "Open Hosts ": {
+    "prefix": "Open Hosts ",
+    "body": "Open Hosts ",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.openMenuItem.script.filemaker"
+  },
+  "Open Manage Containers ": {
+    "prefix": "Open Manage Containers ",
+    "body": "Open Manage Containers ",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.openMenuItem.script.filemaker"
+  },
+  "Open Manage Data Sources ": {
+    "prefix": "Open Manage Data Sources ",
+    "body": "Open Manage Data Sources ",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.openMenuItem.script.filemaker"
+  },
+  "Open Manage Database ": {
+    "prefix": "Open Manage Database ",
+    "body": "Open Manage Database ",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.openMenuItem.script.filemaker"
+  },
+  "Open Manage Layouts ": {
+    "prefix": "Open Manage Layouts ",
+    "body": "Open Manage Layouts ",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.openMenuItem.script.filemaker"
+  },
+  "Open Manage Themes ": {
+    "prefix": "Open Manage Themes ",
+    "body": "Open Manage Themes ",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.openMenuItem.script.filemaker"
+  },
+  "Open Manage Value Lists ": {
+    "prefix": "Open Manage Value Lists ",
+    "body": "Open Manage Value Lists ",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.openMenuItem.script.filemaker"
+  },
+  "Open Preferences ": {
+    "prefix": "Open Preferences ",
+    "body": "Open Preferences ",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.openMenuItem.script.filemaker"
+  },
+  "Open Script Workspace ": {
+    "prefix": "Open Script Workspace ",
+    "body": "Open Script Workspace ",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.openMenuItem.script.filemaker"
+  },
+  "Open Sharing ": {
+    "prefix": "Open Sharing ",
+    "body": "Open Sharing ",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.openMenuItem.script.filemaker"
+  },
+  "Open Upload to Host": {
+    "prefix": "Open Upload to Host",
+    "body": "Open Upload to Host",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.openMenuItem.script.filemaker"
+  },
+  
+  "Allow Formatting Bar": {
+    "prefix": "Allow Formatting Bar [Off]",
+    "body": "Allow Formatting Bar [Off]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "AVPlayer Play": {
+    "prefix": "AVPlayer Play [Object: <Active Object>]",
+    "body": "AVPlayer Play [Object: <Active Object>]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "AVPlayer Set Options": {
+    "prefix": "AVPlayer Set Options",
+    "body": "AVPlayer Set Options",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "AVPlayer Set Playback State": {
+    "prefix": "AVPlayer Set Playback State [Stopped]",
+    "body": "AVPlayer Set Playback State [Stopped]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Beep Beep": {
+    "prefix": "Halt Script",
+    "body": "Halt Script",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Dial Phone": {
+    "prefix": "Dial Phone []",
+    "body": "Dial Phone []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Enable Touch Keyboard": {
+    "prefix": "Enable Touch Keyboard [Off]",
+    "body": "Enable Touch Keyboard [Off]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Execute SQL": {
+    "prefix": "Execute SQL []",
+    "body": "Execute SQL []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Exit Application": {
+    "prefix": "Exit Application",
+    "body": "Exit Application",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Flush Cache to Disk": {
+    "prefix": "Flush Cache to Disk",
+    "body": "Flush Cache to Disk",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Get Folder Path": {
+    "prefix": "Get Folder Path []",
+    "body": "Get Folder Path []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Install Menu Set": {
+    "prefix": "Install Menu Set [“[Standard FileMaker Menus]”]",
+    "body": "Install Menu Set [“[Standard FileMaker Menus]”]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Install Plug-In File": {
+    "prefix": "Install Plug-In File []",
+    "body": "Install Plug-In File []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Open URL": {
+    "prefix": "Open URL []",
+    "body": "Open URL []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Perform AppleScript": {
+    "prefix": "Perform AppleScript []",
+    "body": "Perform AppleScript []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Refresh Object": {
+    "prefix": "Refresh Object []",
+    "body": "Refresh Object []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Refresh Portal": {
+    "prefix": "Refresh Portal []",
+    "body": "Refresh Portal []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Send DDE Execute": {
+    "prefix": "Send DDE Execute []",
+    "body": "Send DDE Execute []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Send Event": {
+    "prefix": "Send Event []",
+    "body": "Send Event []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Send Mail": {
+    "prefix": "Send Mail [Send via E-mail Client]",
+    "body": "Send Mail [Send via E-mail Client]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Set Web Viewer": {
+    "prefix": "Set Web Viewer [Action: Reset]",
+    "body": "Set Web Viewer [Action: Reset]",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Show Custom Dialog": {
+    "prefix": "Show Custom Dialog []",
+    "body": "Show Custom Dialog []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  },
+  "Speak": {
+    "prefix": "Speak []",
+    "body": "Speak []",
+    "description": "NO DESCRIPTION PROVIDED",
+    "scope": "unassigned.miscellaneous.script.filemaker"
+  }
+}

@@ -1,0 +1,200 @@
+# Control 20
+Allow User Abort [On/Off]
+Configure Local Notification [Action:Queue]
+Configure Region Monitor Script [Monitor:iBeacon]
+If []
+Else If []
+Else
+End If
+Loop
+Exit Loop If []
+End Loop
+Install OnTimer Script []
+Pause/Resume Script []
+Perform Script [Specified:From List; <unknown>; Parameter: ]
+Perform Script on Server [Specified:From List; <unknown>; Parameter: ; Wait for completion:On]
+Set Error Capture [On]
+Set Error Logging [Off]
+Set Layout Object Animation [On]
+Set Variable [; Value: ]
+Exit Script [Text Result: ]
+Halt Script
+
+# Navigation 12
+Close Popover
+Enter Browse Mode [Pause:Off]
+Enter Find Mode [Pause:On]
+Enter Preview Mode [Pause:Off]
+Go to Field []
+Go to Layout [original layout; Animation:None]
+Go to Next Field
+Go to Object []
+Go to Portal Row [Select; First]
+Go to Previous Field
+Go to Record/Request/Page [First]
+Go to Related Record [From table: <unknown>; Using layout: <Current Layout>]
+
+# Editing 8
+Clear [Select]
+Copy [Select]
+Cut [Select]
+Paste [Select]
+Perform Find/Replace [With dialog:On]
+Select All
+Set Selection []
+Undo/Redo [Toggle]
+
+# Fields 19
+Export Field Contents [Create folders:Off]
+Insert Audio/Video []
+Insert Calculated Result []
+Insert Current Date []
+Insert Current Time []
+Insert Current User Name []
+Insert File []
+Insert from Device [Type: Camera; Camera: Back; Resolution: Full]
+Insert from Index []
+Insert from Last Visited []
+Insert from URL []
+Insert PDF []
+Insert Picture []
+Insert Text[]
+Relookup Field Contents []
+Replace Field Contents []
+Set Field []
+Set Field By Name []
+Set Next Serial Value []
+
+# Records 16
+Commit Records/Requests
+Copy All Records/Requests
+Copy Record/Request
+Delete All Records
+Delete Portal Row
+Delete Record/Request
+Duplicate Record/Request
+Export Records [Create folders:No]
+Import Records []
+New Record/Request
+Open Record/Request
+Revert Record/Request
+Save Records as Excel [Create folders:No]
+Save Records as PDF [Create folders:No]
+Save Records as Snapshot Link [Records being browsed; Create folders:No]
+Truncate Table [Table: <Current Table>]
+
+# Found Sets 13
+Constrain Found Set []
+Extend Found Set []
+Find Matching Records [Replace]
+Modify Last Find
+Omit Multiple Records []
+Omit Record
+Perform Find []
+Perform Quick Find []
+Show All Records
+Show Omitted Only
+Sort Records []
+Sort Records by Field [Ascending]
+Unsort Records
+
+# Windows 15
+Adjust Window [Restore]
+Arrange All Windows [Tile Horizontally]
+Close Window [Current Window]
+Freeze Window
+Move/Resize Window [Current Window]
+New Window [Style: Document; Using layout: <Current Layout>; Close: Yes; Minimize: Yes; Maximize: Yes; Resize: Yes]
+Refresh Window
+Scroll Window [Home]
+Select Window [Current Window]
+Set Window Title [Current Window]
+Set Zoom Level [100%]
+Show/Hide Menubar [Toggle]
+Show/Hide Text Ruler [Toggle]
+Show/Hide Toolbars [Toggle]
+View As [Cycle]
+
+# Files 22
+Close Data File [File ID: ]
+Close File [Current File]
+Convert File []
+Create Data File [; Create folders:Off]
+Delete File [Target file:]
+Get Data File Position [Target: ]
+Get File Exists [; Target: ]
+Get File Size [; Target: ]
+New File
+Open Data File [; Target: ]
+Open File [<unknown>]
+Print []
+Print Setup []
+Read from Data File [File ID: ; Amount (bytes): ; Target: ; Read as: Bytes]
+Recover File []
+Rename File [Source file: ; New name: ]
+Save a Copy as [Create folders:No]
+Save a Copy as XML [Window name: ; Destination file: <unknown>]
+Set Data File Position []
+Set Multi-User [On]
+Set Use System Formats [On]
+Write to Data File [File ID: ; Data source: ; Write as: UTF-16; Append line feed: On]
+
+# Accounts 6
+Add Account [Privilege Set: <unknown>]
+Change Password []
+Delete Account []
+Enable Account []
+Re-Login []
+Reset Account Password []
+
+# Spelling 7
+Check Found Set
+Check Record
+Check Selection []
+Correct Word
+Edit User Dictionary
+Select Dictionaries
+Spelling Options
+
+# Open Menu Item 16
+Open Edit Saved Finds
+Open Favorites
+Open File Options 
+Open Find/Replace 
+Open Help 
+Open Hosts 
+Open Manage Containers 
+Open Manage Data Sources 
+Open Manage Database 
+Open Manage Layouts 
+Open Manage Themes 
+Open Manage Value Lists 
+Open Preferences 
+Open Script Workspace 
+Open Sharing 
+Open Upload to Host
+
+# Miscellaneous 23
+Allow Formatting Bar [Off]
+AVPlayer Play [Object: <Active Object>]
+AVPlayer Set Options
+AVPlayer Set Playback State [Stopped]
+Beep
+Dial Phone []
+Enable Touch Keyboard [Off]
+Execute SQL []
+Exit Application
+Flush Cache to Disk
+Get Folder Path []
+Install Menu Set [“[Standard FileMaker Menus]”]
+Install Plug-In File []
+Open URL []
+Perform AppleScript []
+Refresh Object []
+Refresh Portal []
+Send DDE Execute []
+Send Event []
+Send Mail [Send via E-mail Client]
+Set Web Viewer [Action: Reset]
+Show Custom Dialog []
+Speak []

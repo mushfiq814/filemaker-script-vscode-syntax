@@ -1,0 +1,49 @@
+{
+  "name": "fmlang",
+  "version": "0.0.6",
+  "engines": {
+    "vscode": ">=0.9.0-pre.1"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "publisher": "mushfiq814",
+  "contributes": {
+    "languages": [
+      {
+        "id": "fmlang",
+        "aliases": ["FileMaker", "fmlang"],
+        "extensions": [".fm", ".fmp12"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "fmlang",
+        "scopeName": "source.filemaker",
+        "path": "./syntaxes/FileMaker.tmLanguage"
+      },
+      {
+        "language": "fmlang2",
+        "scopeName": "text.xml.filemakerClipboard",
+        "path": "./syntaxes/FileMaker Clipboard.tmLanguage"
+      },
+      {
+        "language": "fmlang2",
+        "scopeName": "string.filemaker.hash",
+        "path": "./syntaxes/FileMaker Hash.tmLanguage"
+      },
+      {
+        "language": "fmlang2",
+        "scopeName": "text.fmlog",
+        "path": "./syntaxes/FileMaker Log.tmLanguage"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "fmlang",
+        "path": "./snippets/filemaker.json"
+      }
+    ]
+  }
+}
