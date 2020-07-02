@@ -12,8 +12,8 @@
     "languages": [
       {
         "id": "fmlang",
-        "aliases": ["FileMaker", "fmlang"],
-        "extensions": [".fm", ".fmp12"],
+        "aliases": ["FileMakerM2", "fmlang"],
+        "extensions": [".fmp", ".fmp12"],
         "configuration": "./language-configuration.json"
       }
     ],

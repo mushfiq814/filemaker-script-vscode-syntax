@@ -94,13 +94,13 @@
 			<key>match</key>
 			<string>(\$)[a-zA-Z_][a-zA-Z0-9_]*?\b</string>
 			<key>name</key>
-			<string>variable.script_variable.local.filemaker</string>
+			<string>variable.language.script.filemaker</string>
 		</dict>
 		<dict>
 			<key>match</key>
 			<string>(\$\$)[a-zA-Z_][a-zA-Z0-9_]*?\b</string>
 			<key>name</key>
-			<string>variable.script_variable.global.filemaker</string>
+			<string>variable.language.script.filemaker</string>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -164,7 +164,7 @@
 			<key>match</key>
 			<string>$[a-zA-Z_][a-zA-Z0-9_]*</string>
 			<key>name</key>
-			<string>comment.line.number-sign.script.filemaker</string>
+			<string>variable.language.script.filemaker</string>
 		</dict>
     <!-- COMMENT -->
 		<dict>
@@ -173,7 +173,32 @@
 			<key>name</key>
 			<string>comment.line.number-sign.script.filemaker</string>
 		</dict>
-
+    <!-- SEMICOLON -->
+		<dict>
+			<key>match</key>
+			<string>;</string>
+			<key>name</key>
+			<string>punctuation.terminator.statement.script.filemaker</string>
+		</dict>
+    <!-- BRACKETS -->
+		<dict>
+			<key>match</key>
+			<string>\{|\}</string>
+			<key>name</key>
+			<string>meta.brace.curly.script.filemaker</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\(|\)</string>
+			<key>name</key>
+			<string>meta.brace.round.script.filemaker</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\[|\]</string>
+			<key>name</key>
+			<string>meta.brace.square.script.filemaker</string>
+		</dict>
 
 	</array>
 	<key>repository</key>
