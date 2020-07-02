@@ -18,7 +18,7 @@ Set Error Logging [Off]
 Set Layout Object Animation [On]
 Set Variable [; Value: ]
 Exit Script [Text Result: ]
-Halt Script
+Halt Script 
 
 # Navigation 12
 Close Popover
@@ -58,7 +58,7 @@ Insert from Last Visited []
 Insert from URL []
 Insert PDF []
 Insert Picture []
-Insert Text[]
+Insert Text []
 Relookup Field Contents []
 Replace Field Contents []
 Set Field []
@@ -159,19 +159,19 @@ Spelling Options
 # Open Menu Item 16
 Open Edit Saved Finds
 Open Favorites
-Open File Options 
-Open Find/Replace 
-Open Help 
-Open Hosts 
-Open Manage Containers 
-Open Manage Data Sources 
-Open Manage Database 
-Open Manage Layouts 
-Open Manage Themes 
-Open Manage Value Lists 
-Open Preferences 
-Open Script Workspace 
-Open Sharing 
+Open File Options
+Open Find/Replace
+Open Help
+Open Hosts
+Open Manage Containers
+Open Manage Data Sources
+Open Manage Database
+Open Manage Layouts
+Open Manage Themes
+Open Manage Value Lists
+Open Preferences
+Open Script Workspace
+Open Sharing
 Open Upload to Host
 
 # Miscellaneous 23

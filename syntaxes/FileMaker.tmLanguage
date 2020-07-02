@@ -153,6 +153,26 @@
 			<key>name</key>
 			<string>keyword.control.script.filemaker</string>
 		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(Close Popover|Enter Browse Mode|Enter Find Mode|Enter Preview Mode|Go to Field|Go to Layout|Go to Next Field|Go to Object|Go to Portal Row|Go to Previous Field|Go to Record/Request/Page|Go to Related Record|Clear|Copy|Cut|Paste|Perform Find/Replace|Select All|Set Selection|Undo/Redo|Export Field Contents|Insert Audio/Video|Insert Calculated Result|Insert Current Date|Insert Current Time|Insert Current User Name|Insert File|Insert from Device|Insert from Index|Insert from Last Visited|Insert from URL|Insert PDF|Insert Picture|Insert Text|Relookup Field Contents|Replace Field Contents|Set Field|Set Field By Name|Set Next Serial Value|Commit Records/Requests|Copy All Records/Requests|Copy Record/Request|Delete All Records|Delete Portal Row|Delete Record/Request|Duplicate Record/Request|Export Records|Import Records|New Record/Request|Open Record/Request|Revert Record/Request|Save Records as Excel|Save Records as PDF|Save Records as Snapshot Link|Truncate Table|Constrain Found Set|Extend Found Set|Find Matching Records|Modify Last Find|Omit Multiple Records|Omit Record|Perform Find|Perform Quick Find|Show All Records|Show Omitted Only|Sort Records|Sort Records by Field|Unsort Records|Adjust Window|Arrange All Windows|Close Window|Freeze Window|Move/Resize Window|New Window|Refresh Window|Scroll Window|Select Window|Set Window Title|Set Zoom Level|Show/Hide Menubar|Show/Hide Text Ruler|Show/Hide Toolbars|View As|Close Data File|Close File|Convert File|Create Data File|Delete File|Get Data File Position|Get File Exists|Get File Size|New File|Open Data File|Open File|Print|Print Setup|Read from Data File|Recover File|Rename File|Save a Copy as|Save a Copy as XML|Set Data File Position|Set Multi-User|Set Use System Formats|Write to Data File|Add Account|Change Password|Delete Account|Enable Account|Re-Login|Reset Account Password|Check Found Set|Check Record|Check Selection|Correct Word|Edit User Dictionary|Select Dictionaries|Spelling Options|Open Edit Saved Finds|Open Favorites|Open File Options|Open Find/Replace|Open Help|Open Hosts|Open Manage Containers|Open Manage Data Sources|Open Manage Database|Open Manage Layouts|Open Manage Themes|Open Manage Value Lists|Open Preferences|Open Script Workspace|Open Sharing|Open Upload to Host|Allow Formatting Bar|AVPlayer Play|AVPlayer Set Options|AVPlayer Set Playback State|Beep|Dial Phone|Enable Touch Keyboard|Execute SQL|Exit Application|Flush Cache to Disk|Get Folder Path|Install Menu Set|Install Plug-In File|Open URL|Perform AppleScript|Refresh Object|Refresh Portal|Send DDE Execute|Send Event|Send Mail|Set Web Viewer|Show Custom Dialog|Speak)\b</string>
+			<key>name</key>
+			<string>keyword.other.script.filemaker</string>
+		</dict>
+    <!-- LOCAL VARIABLES -->
+		<dict>
+			<key>match</key>
+			<string>$[a-zA-Z_][a-zA-Z0-9_]*</string>
+			<key>name</key>
+			<string>comment.line.number-sign.script.filemaker</string>
+		</dict>
+    <!-- COMMENT -->
+		<dict>
+			<key>match</key>
+			<string>#.*</string>
+			<key>name</key>
+			<string>comment.line.number-sign.script.filemaker</string>
+		</dict>
 
 
 	</array>
