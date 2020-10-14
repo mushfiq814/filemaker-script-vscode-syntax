@@ -47,7 +47,7 @@
     "description": "NO DESCRIPTION PROVIDED",
     "scope": "keyword.control.script.filemaker"
   },
-  "End Loop Loop": {
+  "End Loop": {
     "prefix": "End Loop",
     "body": "End Loop",
     "description": "NO DESCRIPTION PROVIDED",

@@ -149,7 +149,7 @@
     <!-- ADDED BY ME -->
 		<dict>
 			<key>match</key>
-			<string>\b(Set Variable|Else If|Else|End If|Loop|Exit Loop If|If|End Loop|Install OnTimer Script|Pause/Resume Script|Perform Script|Perform Script on Server|Set Error Capture|Set Error Logging|Set Layout Object Animation|Exit Script|Halt Script|Allow User Abort)\b</string>
+			<string>\b(Set Variable|Else If|Else|End If|Loop|Exit Loop If|If|End Loop|Install OnTimer Script|Pause/Resume Script|Perform Script on Server|Perform Script|Set Error Capture|Set Error Logging|Set Layout Object Animation|Exit Script|Halt Script|Allow User Abort)\b</string>
 			<key>name</key>
 			<string>keyword.control.script.filemaker</string>
 		</dict>
